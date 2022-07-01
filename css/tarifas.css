@@ -1,0 +1,33 @@
+.logotipo{
+    width: 150px;
+    padding: 10px 0 ;
+}
+
+h1{
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 40px;
+}
+
+h2,h3,h4{
+    color: #f2f2f2;
+    background: fixed;
+    margin: 0;
+    margin-bottom:15px;
+    text-align: center;
+}
+footer{
+    margin: 0;
+    background-color: #313131f1;
+    border-style: solid;
+    border-color: black;
+    border-bottom: rgba(49, 49, 49);
+    border-left: rgba(49, 49, 49);
+    border-right: rgba(49, 49, 49);
+}
+
+.final{
+    display: flex;
+    width: 350px;
+    margin: auto;
+}
