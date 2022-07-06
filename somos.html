@@ -11,7 +11,7 @@
     <title>Quines somos - Perihueyco</title>
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="index.html">
                     <img class="logotipo" src="img/1.png" alt="">
@@ -47,8 +47,8 @@
             </div>
             
         </nav>
-
-        <div>
+        <br><br><br><br><br><br>
+        <div class="scroll">
             <h1>INFORMACION</h1>
             <h2>El Ski Resort se caracteriza por los conceptos de garantía, calidad de nieve, cero demoras en los medios de elevación y propuestas integrales para la familia.</h2>
             <p>Perihueyco Ski Resort está ubicado a 360 km al noroeste de Neuquén y a 1550 km. de Buenos Aires. Su ubicación privilegiada sobre la alta Cordillera de Los Andes garantiza la mejor calidad y la mayor cantidad de nieve durante toda la temporada de invierno.
@@ -69,6 +69,57 @@
                 
                 <li> Sector Base: 2 telesillas dobles de 1,440 m y 1750 m de longitud, 1 Telesquí de 1000 m, 1 Teleski de 350 m y 1 Carpet Lift, cinta transportadora para principiantes.</li>
             </ul>
+        </div>
+
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                <img src="img/maquinas.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h6>EQUIPO DE PISTAS</h6>
+                    <p class="maquinas">Empleamos maquinaria, y equipamiento de última generación, así como unos recursos humanos con más de veinte expertos y especialistas, para la constante preparación y acondicionamiento de la nieve durante toda la temporada.</p>
+                </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                <img src="img/equipo.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h6>EQUIPO DE RESCATE</h6>
+                    <p class="equipo">Fácilmente reconocibles dentro de la montaña por su vestimenta roja con una cruz blanca en la espalda, son los encargados de la prevención, el control y la seguridad en las pistas. Integrado por 20 pisteros socorristas profesionales, capacitados y con certificaciones nacionales e internacionales, llevan adelante su tarea con eficiencia. Son los primeros en subir a la montaña y los últimos en bajar.</p>
+                </div>
+                </div>
+                <div class="carousel-item">
+                <img src="img/reglamento.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h6>REGLAMENTO</h6>
+                    <p class="reglamento">-El esquiador o snowboarder debe comportarse de manera que no ponga en peligro o perjudique a los demás.
+
+                        -Controlar su descenso en todo momento.
+                        <br>
+                        -Si baja tome la dirección que garantice la seguridad de aquellos que se encuentran debajo.
+                        <br>
+                        -Si entra en una pista debe mirar hacia arriba y abajo asegurándose que la pista este despejada.
+                        <br>
+                        -Evitar pararse en medio de una pista, y especialmente en lugares estrechos o de escasa visibilidad.
+                        <br>
+                        -Al subir y bajar a pie deberán hacerlo por el lateral de la pista.
+                        <br>
+                        -EL USO DEL CASCO ES OBLIGATORIO EN MENORES DE 14 AÑOS.</p>
+                </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
 
         <footer>

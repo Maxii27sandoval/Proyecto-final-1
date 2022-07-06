@@ -27,6 +27,30 @@ h3,h4,h5{
     text-align: center;
 }
 
+.scroll{
+    margin: 50px;
+}
+
+h6{
+    color:rgb(0, 0, 0);
+    font-size: 1.7rem;
+}
+
+.maquinas{
+    font-size: 1.3rem;
+    text-decoration: underline;
+}
+
+.reglamento{
+    font-size: 1.3rem;
+    text-decoration:underline;
+}
+
+.equipo{
+    font-size: 1.3rem;
+    text-decoration: underline;
+}
+
 footer{
     margin: 0;
     background-color: #313131f1;
